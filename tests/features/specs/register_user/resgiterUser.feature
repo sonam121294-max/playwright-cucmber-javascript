@@ -10,7 +10,7 @@ Feature: Register User
     And user clicks on "signup login link"
     And user verifies that the "new user signup title" should have text as "New User Signup!"
     And user enters "Sonam User" into input "signup name input"
-    And user enters "$user_1.email" into input "signup email input"
+    And user enters "sonam@napses.com" into input "signup email input"
     And user clicks on "signup button"
     And user verifies that the "enter account information title" should have text as "Enter Account Information"
     And user selects radio box option "title mr radio"
