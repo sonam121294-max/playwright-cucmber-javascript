@@ -1,130 +1,139 @@
-┌──────────────────────────────────────────────────────────────────────────────────────────────────┬───────────┬────────────────────────────────────────────────────────┐
-│ Pattern / Text                                                                                   │ Duration  │ Location                                               │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user navigates to {string}                                                                       │ 8464.37ms │ tests/features/src/steps/predefined_steps.js:76        │
-│   user navigates to "http://automationexercise.com"                                              │ 8464.37ms │ tests/features/specs/user signin/userSignin.feature:32 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the {string} should have partial text as {string}                             │ 5007.59ms │ tests/features/src/steps/predefined_steps.js:284       │
-│   user verifies that the "a:has-text('Logged in as')" should have partial text as "Logged in as" │ 5007.59ms │ tests/features/specs/user signin/userSignin.feature:39 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user clicks on {string}                                                                          │ 1085.25ms │ tests/features/src/steps/predefined_steps.js:179       │
-│   user clicks on "a[href='/login']"                                                              │ 1408.78ms │ tests/features/specs/user signin/userSignin.feature:34 │
-│   user clicks on "button[data-qa='login-button']"                                                │ 761.73ms  │ tests/features/specs/user signin/userSignin.feature:38 │
-│   user clicks on "a[href='/logout']"                                                             │ -         │ tests/features/specs/user signin/userSignin.feature:40 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user enters {string} into input {string}                                                         │ 1024.79ms │ tests/features/src/steps/predefined_steps.js:122       │
-│   user enters "sonam@napses.com" into input "input[data-qa='login-email']"                       │ 1027.81ms │ tests/features/specs/user signin/userSignin.feature:36 │
-│   user enters "Test@12345" into input "input[data-qa='login-password']"                          │ 1021.77ms │ tests/features/specs/user signin/userSignin.feature:37 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user is on web app                                                                               │ 919.90ms  │ tests/features/src/steps/createDrivers.js:13           │
-│   user is on web app                                                                             │ 919.90ms  │ tests/features/specs/user signin/userSignin.feature:31 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the {string} should have text as {string}                                     │ 241.98ms  │ tests/features/src/steps/predefined_steps.js:246       │
-│   user verifies that the ".login-form h2" should have text as "Login to your account"            │ 241.98ms  │ tests/features/specs/user signin/userSignin.feature:35 │
-│   user verifies that the ".login-form h2" should have text as "Login to your account"            │ -         │ tests/features/specs/user signin/userSignin.feature:41 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ Verify and element {string} is present                                                           │ 83.03ms   │ tests/features/src/steps/predefined_steps.js:332       │
-│   Verify and element "img[alt='Website for automation practice']" is present                     │ 83.03ms   │ tests/features/specs/user signin/userSignin.feature:33 │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user is on mobile app                                                                            │ UNUSED    │ tests/features/src/steps/createDrivers.js:6            │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user refreshes page                                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:86        │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user navigates backward                                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:93        │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user navigates forward                                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:105       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user clears input field {string}                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:113       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user enters {string} as otp one by one in input {string}                                         │ UNUSED    │ tests/features/src/steps/predefined_steps.js:133       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user hovers on {string}                                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:151       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user right clicks on {string}                                                                    │ UNUSED    │ tests/features/src/steps/predefined_steps.js:159       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user double clicks on {string}                                                                   │ UNUSED    │ tests/features/src/steps/predefined_steps.js:171       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user unselects checkbox option {string}                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:189       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user selects checkbox option {string}                                                            │ UNUSED    │ tests/features/src/steps/predefined_steps.js:197       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user selects radio box option {string}                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:205       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user selects option {string} from the dropdown {string}                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:213       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user enters {string} into input {string} and presses enter                                       │ UNUSED    │ tests/features/src/steps/predefined_steps.js:228       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the {string} is diabled                                                       │ UNUSED    │ tests/features/src/steps/predefined_steps.js:262       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the {string} is enabled                                                       │ UNUSED    │ tests/features/src/steps/predefined_steps.js:273       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the page has url as {string}                                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:300       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user veriffies that the page has title as {string}                                               │ UNUSED    │ tests/features/src/steps/predefined_steps.js:304       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ Verify radio button {string} is selected                                                         │ UNUSED    │ tests/features/src/steps/predefined_steps.js:308       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ Verify checkbox {string} is checked                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:320       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user scrolls the page by {int} pixels                                                            │ UNUSED    │ tests/features/src/steps/predefined_steps.js:344       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user takes a screenshot of the page                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:346       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user takes a screenshot of the page and save with name {string}                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:353       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user opens a new window                                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:363       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user opens and switches to new page                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:367       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user switches to page1                                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:377       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user switches to page2                                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:381       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user generates google otp                                                                        │ UNUSED    │ tests/features/src/steps/predefined_steps.js:385       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user dismisses alert box                                                                         │ UNUSED    │ tests/features/src/steps/predefined_steps.js:392       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user accepts alert                                                                               │ UNUSED    │ tests/features/src/steps/predefined_steps.js:398       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the alert text should be {string}                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:404       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user drags element {string} to the locator {string}                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:415       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user presses Enter key on element {string}                                                       │ UNUSED    │ tests/features/src/steps/predefined_steps.js:424       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user presses Enter key on page                                                                   │ UNUSED    │ tests/features/src/steps/predefined_steps.js:428       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user waits for {int} milliseconds                                                                │ UNUSED    │ tests/features/src/steps/predefined_steps.js:432       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user extracts the ID from the current URL                                                        │ UNUSED    │ tests/features/src/steps/predefined_steps.js:440       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user makes a POST request to the API endpoint                                                    │ UNUSED    │ tests/features/src/steps/predefined_steps.js:450       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user is redirected to a new page                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:476       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user is redirected to a customer quotation page                                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:481       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user saves value of  {string} with key {string}                                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:487       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user makes a POST request to the API endpoint with {string} flow, object type {string}           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:497       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user find element {string} from captured {string}                                                │ UNUSED    │ tests/features/src/steps/predefined_steps.js:526       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user enters value of key {string} into input {string} and presses enter                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:536       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user hides the keyboard                                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:547       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user adds item with following data {string} {string} {string} {string} {string} {string}         │ UNUSED    │ tests/features/src/steps/predefined_steps.js:552       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ fetch the whatsapp submit url for {string} flow                                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:581       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user opens a new page {string} and switches to it                                                │ UNUSED    │ tests/features/src/steps/predefined_steps.js:609       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user switches to page {string}                                                                   │ UNUSED    │ tests/features/src/steps/predefined_steps.js:620       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user uploads file {string} at {string}                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:625       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ I navigate to {string}                                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:633       │
-├──────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ I click on {string}                                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:637       │
-└──────────────────────────────────────────────────────────────────────────────────────────────────┴───────────┴────────────────────────────────────────────────────────┘
+┌─────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────┬────────────────────────────────────────────────────────┐
+│ Pattern / Text                                                                                      │ Duration  │ Location                                               │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user navigates to {string}                                                                          │ 8271.22ms │ tests/features/src/steps/predefined_steps.js:76        │
+│   user navigates to "http://automationexercise.com"                                                 │ 9689.53ms │ tests/features/specs/user signin/userSignin.feature:6  │
+│   user navigates to "http://automationexercise.com"                                                 │ 6852.92ms │ tests/features/specs/user signin/userSignin.feature:18 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user clicks on {string}                                                                             │ 1182.60ms │ tests/features/src/steps/predefined_steps.js:179       │
+│   user clicks on "button[data-qa='login-button']"                                                   │ 1688.55ms │ tests/features/specs/user signin/userSignin.feature:24 │
+│   user clicks on "a[href='/logout']"                                                                │ 1437.00ms │ tests/features/specs/user signin/userSignin.feature:26 │
+│   user clicks on "a[href='/login']"                                                                 │ 1229.91ms │ tests/features/specs/user signin/userSignin.feature:8  │
+│   user clicks on "a[href='/login']"                                                                 │ 1038.82ms │ tests/features/specs/user signin/userSignin.feature:20 │
+│   user clicks on "button[data-qa='login-button']"                                                   │ 518.70ms  │ tests/features/specs/user signin/userSignin.feature:12 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user enters {string} into input {string}                                                            │ 1102.42ms │ tests/features/src/steps/predefined_steps.js:122       │
+│   user enters "Test@12345" into input "input[data-qa='login-password']"                             │ 1200.86ms │ tests/features/specs/user signin/userSignin.feature:23 │
+│   user enters "invalid.user@example.com" into input "input[data-qa='login-email']"                  │ 1142.52ms │ tests/features/specs/user signin/userSignin.feature:10 │
+│   user enters "sonam@napses.com" into input "input[data-qa='login-email']"                          │ 1036.36ms │ tests/features/specs/user signin/userSignin.feature:22 │
+│   user enters "Invalid@12345" into input "input[data-qa='login-password']"                          │ 1029.92ms │ tests/features/specs/user signin/userSignin.feature:11 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user is on web app                                                                                  │ 541.88ms  │ tests/features/src/steps/createDrivers.js:13           │
+│   user is on web app                                                                                │ 1083.44ms │ tests/features/specs/user signin/userSignin.feature:5  │
+│   user is on web app                                                                                │ 0.32ms    │ tests/features/specs/user signin/userSignin.feature:17 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user verifies that the {string} should have partial text as {string}                                │ 206.36ms  │ tests/features/src/steps/predefined_steps.js:284       │
+│   user verifies that the "a:has-text('Logged in as')" should have partial text as "Logged in as"    │ 206.36ms  │ tests/features/specs/user signin/userSignin.feature:25 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user verifies that the {string} should have text as {string}                                        │ 144.34ms  │ tests/features/src/steps/predefined_steps.js:246       │
+│   user verifies that the ".login-form h2" should have text as "Login to your account"               │ 198.11ms  │ tests/features/specs/user signin/userSignin.feature:27 │
+│   user verifies that the ".login-form p" should have text as "Your email or password is incorrect!" │ 149.30ms  │ tests/features/specs/user signin/userSignin.feature:13 │
+│   user verifies that the ".login-form h2" should have text as "Login to your account"               │ 134.55ms  │ tests/features/specs/user signin/userSignin.feature:9  │
+│   user verifies that the ".login-form h2" should have text as "Login to your account"               │ 95.38ms   │ tests/features/specs/user signin/userSignin.feature:21 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ Verify and element {string} is present                                                              │ 46.54ms   │ tests/features/src/steps/predefined_steps.js:332       │
+│   Verify and element "img[alt='Website for automation practice']" is present                        │ 61.07ms   │ tests/features/specs/user signin/userSignin.feature:7  │
+│   Verify and element "img[alt='Website for automation practice']" is present                        │ 32.01ms   │ tests/features/specs/user signin/userSignin.feature:19 │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user is on mobile app                                                                               │ UNUSED    │ tests/features/src/steps/createDrivers.js:6            │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user refreshes page                                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:86        │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user navigates backward                                                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:93        │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user navigates forward                                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:105       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user clears input field {string}                                                                    │ UNUSED    │ tests/features/src/steps/predefined_steps.js:113       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user enters {string} as otp one by one in input {string}                                            │ UNUSED    │ tests/features/src/steps/predefined_steps.js:133       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user hovers on {string}                                                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:151       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user right clicks on {string}                                                                       │ UNUSED    │ tests/features/src/steps/predefined_steps.js:159       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user double clicks on {string}                                                                      │ UNUSED    │ tests/features/src/steps/predefined_steps.js:171       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user unselects checkbox option {string}                                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:189       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user selects checkbox option {string}                                                               │ UNUSED    │ tests/features/src/steps/predefined_steps.js:197       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user selects radio box option {string}                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:205       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user selects option {string} from the dropdown {string}                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:213       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user enters {string} into input {string} and presses enter                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:228       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user verifies that the {string} is diabled                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:262       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user verifies that the {string} is enabled                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:273       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user verifies that the page has url as {string}                                                     │ UNUSED    │ tests/features/src/steps/predefined_steps.js:300       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user veriffies that the page has title as {string}                                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:304       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ Verify radio button {string} is selected                                                            │ UNUSED    │ tests/features/src/steps/predefined_steps.js:308       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ Verify checkbox {string} is checked                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:320       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user scrolls the page by {int} pixels                                                               │ UNUSED    │ tests/features/src/steps/predefined_steps.js:344       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user takes a screenshot of the page                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:346       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user takes a screenshot of the page and save with name {string}                                     │ UNUSED    │ tests/features/src/steps/predefined_steps.js:353       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user opens a new window                                                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:363       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user opens and switches to new page                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:367       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user switches to page1                                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:377       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user switches to page2                                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:381       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user generates google otp                                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:385       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user dismisses alert box                                                                            │ UNUSED    │ tests/features/src/steps/predefined_steps.js:392       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user accepts alert                                                                                  │ UNUSED    │ tests/features/src/steps/predefined_steps.js:398       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user verifies that the alert text should be {string}                                                │ UNUSED    │ tests/features/src/steps/predefined_steps.js:404       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user drags element {string} to the locator {string}                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:415       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user presses Enter key on element {string}                                                          │ UNUSED    │ tests/features/src/steps/predefined_steps.js:424       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user presses Enter key on page                                                                      │ UNUSED    │ tests/features/src/steps/predefined_steps.js:428       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user waits for {int} milliseconds                                                                   │ UNUSED    │ tests/features/src/steps/predefined_steps.js:432       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user extracts the ID from the current URL                                                           │ UNUSED    │ tests/features/src/steps/predefined_steps.js:440       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user makes a POST request to the API endpoint                                                       │ UNUSED    │ tests/features/src/steps/predefined_steps.js:450       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user is redirected to a new page                                                                    │ UNUSED    │ tests/features/src/steps/predefined_steps.js:476       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user is redirected to a customer quotation page                                                     │ UNUSED    │ tests/features/src/steps/predefined_steps.js:481       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user saves value of  {string} with key {string}                                                     │ UNUSED    │ tests/features/src/steps/predefined_steps.js:487       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user makes a POST request to the API endpoint with {string} flow, object type {string}              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:497       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user find element {string} from captured {string}                                                   │ UNUSED    │ tests/features/src/steps/predefined_steps.js:526       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user enters value of key {string} into input {string} and presses enter                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:536       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user hides the keyboard                                                                             │ UNUSED    │ tests/features/src/steps/predefined_steps.js:547       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user adds item with following data {string} {string} {string} {string} {string} {string}            │ UNUSED    │ tests/features/src/steps/predefined_steps.js:552       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ fetch the whatsapp submit url for {string} flow                                                     │ UNUSED    │ tests/features/src/steps/predefined_steps.js:581       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user opens a new page {string} and switches to it                                                   │ UNUSED    │ tests/features/src/steps/predefined_steps.js:609       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user switches to page {string}                                                                      │ UNUSED    │ tests/features/src/steps/predefined_steps.js:620       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ user uploads file {string} at {string}                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:625       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ I navigate to {string}                                                                              │ UNUSED    │ tests/features/src/steps/predefined_steps.js:633       │
+├─────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
+│ I click on {string}                                                                                 │ UNUSED    │ tests/features/src/steps/predefined_steps.js:637       │
+└─────────────────────────────────────────────────────────────────────────────────────────────────────┴───────────┴────────────────────────────────────────────────────────┘
