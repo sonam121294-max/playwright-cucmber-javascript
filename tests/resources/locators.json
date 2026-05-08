@@ -1,0 +1,26 @@
+[
+   
+    { "key": "Full name", "value": "#g4072-fullname"},
+    { "key": "email", "value": "#g4072-email"},
+    { "key": "phone number", "value": "#g4072-phonenumber"},
+    { "key": "gender", "value": "#g4072-gender"},
+    { "key": "3 years of experience", "value": "#g4072-yearsofexperience-3"},
+    { "key": "db testing", "value": "#g4072-skills-DB\\ testing"},
+    { "key": "qa tools", "value": "#g4072-qatools"},
+    { "key": "other details", "value": "#contact-form-comment-g4072-otherdetails"},
+    { "key": "submit button", "value": "#contact-form-4072 > form > div.wp-block-jetpack-button.wp-block-button > button"},
+    { "key": "success message", "value": "#contact-form-success-header"},
+    { "key": "google search box", "value": "#APjFqb"},
+    {"key":"Full Name After Submit", "value":"//*[@id=\"contact-form-4072\"]/div/div[2]"},
+    { "key": "admin signin email input", "value": "input[name='email'], input[type='email']"},
+    { "key": "admin signin continue with email button", "value": "button:has-text('Continue with Email')"},
+    { "key": "admin signin otp input", "value": "input[maxlength='1'], input[inputmode='numeric'][type='text']"},
+    { "key": "admin signin verify button", "value": "button:has-text('Verify & Sign In')"},
+    
+    
+    { "key": "allow", "value": "//android.widget.Button[contains(@text,'Allow')]" },
+    { "key": "signupButton", "value": "~id_icon, Sign Up" },
+    {"key":"mobile", "value":"//android.widget.EditText[@text='login_mobile_number_field']"}
+
+
+]

@@ -1,0 +1,40 @@
+    {
+        "config": {
+            "implimentation": false,
+            "headless": false
+        },
+        "web": {
+            "url": "https://qavalidation.com/demo-form/"
+        },
+        "appinfo": {
+            "port": "4723",
+            "automationName":"UiAutomator2",
+            "platformName":"Android",
+            "deviceName": "emulator-5554",
+            "app":"builds/Psoriasis_QA_0.0.1+48.apk",
+            "appPackage": "com.napses.drlpsoriasis.qa",
+            "appActivity": "com.napses.drlpsoriasis.MainActivity"
+        },
+        "user": {
+            "address": "Mumbai",
+            "mobile": "default",
+            "url": "https://qa-spine-test.azurewebsites.net/temp-login",
+            "email": "anjup.ext@deloitte.com",
+            "term": "pumpkin"
+        },
+        "app": {
+            "url": "https://qavalidation.com/demo-form/"
+        },
+        "basic_cucumber": {
+            "url": "https://www.google.com/"
+        },
+        "test_url": {
+            "url": "https://www.google.com/"
+        },
+        "search": {
+            "term": "pumpkin"
+        },
+        "spine": {
+            "url": "https://www.google.com/"
+        }
+    }

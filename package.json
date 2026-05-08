@@ -1,0 +1,46 @@
+{
+  "name": "playwrightjs-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "watch": {
+    "testImplementation": {
+      "patterns": "tests",
+      "extensions": "js,feature,json"
+    }
+  },
+  "scripts": {
+    "testImplementation": "cross-env USERNAME=${npm_config_username} cucumber-js --tags @run --force-exit -- ./tests/features/specs/**/*.feature",
+    "testspec": "cross-env USERNAME=${npm_config_username} cucumber-js ./tests/features/specs/**/*.feature",
+    "watch": "npm-watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@reportportal/agent-js-playwright": "^5.4.0",
+    "appium": "^3.2.2",
+    "appium-uiautomator2-driver": "^7.1.0",
+    "appium-webdriverio": "^1.0.4",
+    "cross-env": "^10.1.0",
+    "npm-watch": "^0.13.0",
+    "webdriverio": "^9.27.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "axios": "^1.13.6",
+    "chai": "^6.2.2",
+    "chance": "^1.1.13",
+    "factory-girl": "^5.0.4",
+    "pg": "^8.20.0",
+    "pg-hstore": "^2.3.4",
+    "properties-reader": "^3.0.1",
+    "ramda": "^0.32.0",
+    "sequelize": "^6.37.8",
+    "totp-generator": "^2.0.1"
+  }
+}

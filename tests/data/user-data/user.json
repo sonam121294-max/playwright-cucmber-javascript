@@ -1,0 +1,9 @@
+{
+    "user":{
+        "url": "https://qavalidation.com/demo-form/",
+        "full_name": "Praveen",
+        "email": "testuser@example.com",
+        "phone_number": "1234567890"
+    }
+    
+}
