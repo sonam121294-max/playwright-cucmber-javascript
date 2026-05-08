@@ -1,13 +1,13 @@
 Feature: Filling qa demo form 
 
-  @run
+  # @run
   Scenario: fill in valid details 
     Given user is on web app
     And user navigates to "https://qavalidation.com/demo-form/"
     
     
     
-  @run
+  # @run
   Scenario: Implementation 
     Given user is on web app
     And user enters "$user_1.full_name" into input "Full name"
@@ -22,7 +22,7 @@ Feature: Filling qa demo form
     And user verifies that the "success message" should have text as "Your message has been sent"
 
   
-  @run
+  # @run
   Scenario: Verify
     Given user is on web app
     And user verifies that the "Full Name After Submit" should have text as "$user_1.full_name"

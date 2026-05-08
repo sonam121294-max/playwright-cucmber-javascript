@@ -1,6 +1,6 @@
 Feature: Admin sign-in redirect
 
-  @run
+  # @run
   Scenario: Verify admin sign-in redirects to users page
     Given user is on web app
     And user navigates to "http://localhost:4001/signin"

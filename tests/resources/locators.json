@@ -20,7 +20,39 @@
     
     { "key": "allow", "value": "//android.widget.Button[contains(@text,'Allow')]" },
     { "key": "signupButton", "value": "~id_icon, Sign Up" },
-    {"key":"mobile", "value":"//android.widget.EditText[@text='login_mobile_number_field']"}
+    {"key":"mobile", "value":"//android.widget.EditText[@text='login_mobile_number_field']"},
+
+    { "key": "automation exercise home logo", "value": "img[alt='Website for automation practice']" },
+    { "key": "signup login link", "value": "a[href='/login']" },
+    { "key": "new user signup title", "value": "div.signup-form h2" },
+    { "key": "signup name input", "value": "input[data-qa='signup-name']" },
+    { "key": "signup email input", "value": "input[data-qa='signup-email']" },
+    { "key": "signup button", "value": "button[data-qa='signup-button']" },
+    { "key": "enter account information title", "value": "//*[@id='form']/div/div/div/div/h2/b" },
+    { "key": "title mr radio", "value": "#id_gender1" },
+    { "key": "account name input", "value": "input[data-qa='name']" },
+    { "key": "account password input", "value": "input[data-qa='password']" },
+    { "key": "birth day dropdown", "value": "select[data-qa='days']" },
+    { "key": "birth month dropdown", "value": "select[data-qa='months']" },
+    { "key": "birth year dropdown", "value": "select[data-qa='years']" },
+    { "key": "newsletter checkbox", "value": "#newsletter" },
+    { "key": "offers checkbox", "value": "#optin" },
+    { "key": "first name input", "value": "input[data-qa='first_name']" },
+    { "key": "last name input", "value": "input[data-qa='last_name']" },
+    { "key": "company input", "value": "input[data-qa='company']" },
+    { "key": "address line1 input", "value": "input[data-qa='address']" },
+    { "key": "address line2 input", "value": "input[data-qa='address2']" },
+    { "key": "country dropdown", "value": "select[data-qa='country']" },
+    { "key": "state input", "value": "input[data-qa='state']" },
+    { "key": "city input", "value": "input[data-qa='city']" },
+    { "key": "zipcode input", "value": "input[data-qa='zipcode']" },
+    { "key": "mobile number input", "value": "input[data-qa='mobile_number']" },
+    { "key": "create account button", "value": "button[data-qa='create-account']" },
+    { "key": "account created title", "value": "h2[data-qa='account-created'] b" },
+    { "key": "continue button", "value": "a[data-qa='continue-button']" },
+    { "key": "logged in as text", "value": "a:has-text('Logged in as')" },
+    { "key": "delete account link", "value": "a[href='/delete_account']" },
+    { "key": "account deleted title", "value": "h2[data-qa='account-deleted'] b" }
 
 
 ]
