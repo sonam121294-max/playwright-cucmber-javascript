@@ -1,30 +1,30 @@
 ┌───────────────────────────────────────────────────────────────────────────────────────────────────┬───────────┬────────────────────────────────────────────────────────┐
 │ Pattern / Text                                                                                    │ Duration  │ Location                                               │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user navigates to {string}                                                                        │ 5184.85ms │ tests/features/src/steps/predefined_steps.js:76        │
-│   user navigates to "http://automationexercise.com"                                               │ 5184.85ms │ tests/features/specs/user signin/userSignin.feature:6  │
+│ user navigates to {string}                                                                        │ 6183.28ms │ tests/features/src/steps/predefined_steps.js:76        │
+│   user navigates to "http://automationexercise.com"                                               │ 6183.28ms │ tests/features/specs/user signin/userSignin.feature:6  │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the {string} should have partial text as {string}                              │ 5013.10ms │ tests/features/src/steps/predefined_steps.js:284       │
-│   user verifies that the "a:has-text('Logged in as')" should have partial text as "Logged in as"  │ 5013.10ms │ tests/features/specs/user signin/userSignin.feature:13 │
+│ user verifies that the {string} should have partial text as {string}                              │ 5006.99ms │ tests/features/src/steps/predefined_steps.js:284       │
+│   user verifies that the "a:has-text('Logged in as')" should have partial text as "Logged in as"  │ 5006.99ms │ tests/features/specs/user signin/userSignin.feature:13 │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user enters {string} into input {string}                                                          │ 1030.61ms │ tests/features/src/steps/predefined_steps.js:122       │
-│   user enters "your_password" into input "input[data-qa='login-password']"                        │ 1035.55ms │ tests/features/specs/user signin/userSignin.feature:11 │
-│   user enters "your_registered_email@example.com" into input "input[data-qa='login-email']"       │ 1025.68ms │ tests/features/specs/user signin/userSignin.feature:10 │
+│ user enters {string} into input {string}                                                          │ 1016.90ms │ tests/features/src/steps/predefined_steps.js:122       │
+│   user enters "sonam@napses.com" into input "input[data-qa='login-email']"                        │ 1018.73ms │ tests/features/specs/user signin/userSignin.feature:10 │
+│   user enters "Test@12345" into input "input[data-qa='login-password']"                           │ 1015.06ms │ tests/features/specs/user signin/userSignin.feature:11 │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user is on web app                                                                                │ 835.19ms  │ tests/features/src/steps/createDrivers.js:13           │
-│   user is on web app                                                                              │ 835.19ms  │ tests/features/specs/user signin/userSignin.feature:5  │
+│ user is on web app                                                                                │ 812.97ms  │ tests/features/src/steps/createDrivers.js:13           │
+│   user is on web app                                                                              │ 812.97ms  │ tests/features/specs/user signin/userSignin.feature:5  │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user clicks on {string}                                                                           │ 714.42ms  │ tests/features/src/steps/predefined_steps.js:179       │
-│   user clicks on "a[href='/login']"                                                               │ 899.46ms  │ tests/features/specs/user signin/userSignin.feature:8  │
-│   user clicks on "button[data-qa='login-button']"                                                 │ 529.39ms  │ tests/features/specs/user signin/userSignin.feature:12 │
+│ user clicks on {string}                                                                           │ 501.88ms  │ tests/features/src/steps/predefined_steps.js:179       │
+│   user clicks on "a[href='/login']"                                                               │ 609.06ms  │ tests/features/specs/user signin/userSignin.feature:8  │
+│   user clicks on "button[data-qa='login-button']"                                                 │ 394.70ms  │ tests/features/specs/user signin/userSignin.feature:12 │
 │   user clicks on "a[href='/delete_account']"                                                      │ -         │ tests/features/specs/user signin/userSignin.feature:14 │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ user verifies that the {string} should have text as {string}                                      │ 145.63ms  │ tests/features/src/steps/predefined_steps.js:246       │
-│   user verifies that the ".login-form h2" should have text as "Login to your account"             │ 145.63ms  │ tests/features/specs/user signin/userSignin.feature:9  │
+│ user verifies that the {string} should have text as {string}                                      │ 126.46ms  │ tests/features/src/steps/predefined_steps.js:246       │
+│   user verifies that the ".login-form h2" should have text as "Login to your account"             │ 126.46ms  │ tests/features/specs/user signin/userSignin.feature:9  │
 │   user verifies that the "h2[data-qa='account-deleted'] b" should have text as "ACCOUNT DELETED!" │ -         │ tests/features/specs/user signin/userSignin.feature:15 │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
-│ Verify and element {string} is present                                                            │ 53.83ms   │ tests/features/src/steps/predefined_steps.js:332       │
-│   Verify and element "img[alt='Website for automation practice']" is present                      │ 53.83ms   │ tests/features/specs/user signin/userSignin.feature:7  │
+│ Verify and element {string} is present                                                            │ 65.85ms   │ tests/features/src/steps/predefined_steps.js:332       │
+│   Verify and element "img[alt='Website for automation practice']" is present                      │ 65.85ms   │ tests/features/specs/user signin/userSignin.feature:7  │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤
 │ user is on mobile app                                                                             │ UNUSED    │ tests/features/src/steps/createDrivers.js:6            │
 ├───────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────┤

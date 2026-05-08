@@ -7,8 +7,8 @@ Feature: User sign in
     And Verify and element "img[alt='Website for automation practice']" is present
     And user clicks on "a[href='/login']"
     And user verifies that the ".login-form h2" should have text as "Login to your account"
-    And user enters "your_registered_email@example.com" into input "input[data-qa='login-email']"
-    And user enters "your_password" into input "input[data-qa='login-password']"
+    And user enters "sonam@napses.com" into input "input[data-qa='login-email']"
+    And user enters "Test@12345" into input "input[data-qa='login-password']"
     And user clicks on "button[data-qa='login-button']"
     And user verifies that the "a:has-text('Logged in as')" should have partial text as "Logged in as"
     And user clicks on "a[href='/delete_account']"

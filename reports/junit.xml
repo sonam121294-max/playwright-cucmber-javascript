@@ -1,15 +1,17 @@
 <?xml version="1.0"?>
-<testsuite name="Cucumber" time="15.329" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-05-08T08:42:03.829Z">
-  <testcase classname="User sign in" name="Login with valid credentials and delete account" time="15.122">
+<testsuite name="Cucumber" time="15.421" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-05-08T08:45:52.733Z">
+  <testcase classname="User sign in" name="Login with valid credentials and delete account" time="15.337">
     <failure type="A" message="[2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed&#xA;&#xA;Locator: locator('a:has-text(\'Logged in as\')')&#xA;Expected substring: [32m&quot;Logged in as&quot;[39m&#xA;Timeout: 5000ms&#xA;Error: element(s) not found&#xA;&#xA;Call log:&#xA;[2m  - Expect &quot;to.have.text&quot; with timeout 5000ms[22m&#xA;[2m  - waiting for locator('a:has-text(\'Logged in as\')')[22m&#xA;"><![CDATA[    at Proxy.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/node_modules/playwright/lib/matchers/expect.js:213:24)
-    at World.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/tests/features/src/steps/predefined_steps.js:295:9)]]></failure>
+    at World.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/tests/features/src/steps/predefined_steps.js:295:9)
+    at runNextTicks (node:internal/process/task_queues:64:5)
+    at process.processImmediate (node:internal/timers:472:9)]]></failure>
     <system-out><![CDATA[Given user is on web app....................................................passed
 And user navigates to "http://automationexercise.com".......................passed
 And Verify and element "img[alt='Website for automation practice']" is present..passed
 And user clicks on "a[href='/login']".......................................passed
 And user verifies that the ".login-form h2" should have text as "Login to your account"..passed
-And user enters "your_registered_email@example.com" into input "input[data-qa='login-email']"..passed
-And user enters "your_password" into input "input[data-qa='login-password']"..passed
+And user enters "sonam@napses.com" into input "input[data-qa='login-email']"..passed
+And user enters "Test@12345" into input "input[data-qa='login-password']"...passed
 And user clicks on "button[data-qa='login-button']".........................passed
 And user verifies that the "a:has-text('Logged in as')" should have partial text as "Logged in as"..failed
 And user clicks on "a[href='/delete_account']"..............................skipped
