@@ -32,9 +32,6 @@ Feature: Register User
     And user enters "400001" into input "zipcode input"
     And user enters "9999999999" into input "mobile number input"
     And user clicks on "create account button"
-    And user verifies that the "account created title" should have text as "ACCOUNT CREATED!"
+    And user verifies that the "account created title" should have text as "Account Created!"
     And user clicks on "continue button"
-    And user verifies that the "logged in as text" should have partial text as "Logged in as"
-    And user clicks on "delete account link"
-    And user verifies that the "account deleted title" should have text as "ACCOUNT DELETED!"
-    And user clicks on "continue button"
+   

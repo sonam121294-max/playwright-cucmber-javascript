@@ -1,17 +1,15 @@
 <?xml version="1.0"?>
-<testsuite name="Cucumber" time="31.803" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-05-08T08:31:18.746Z">
-  <testcase classname="Register User" name="Register a new user successfully and delete the account" time="31.67">
-    <failure type="A" message="[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed&#xA;&#xA;Locator:  locator('h2[data-qa=\'account-created\'] b')&#xA;Expected: [32m&quot;A[7mCCOUNT CREATED[27m!&quot;[39m&#xA;Received: [31m&quot;A[7mccount Created[27m!&quot;[39m&#xA;Timeout:  5000ms&#xA;&#xA;Call log:&#xA;[2m  - Expect &quot;to.have.text&quot; with timeout 5000ms[22m&#xA;[2m  - waiting for locator('h2[data-qa=\'account-created\'] b')[22m&#xA;[2m    9 × locator resolved to &lt;b>Account Created!&lt;/b>[22m&#xA;[2m      - unexpected value &quot;Account Created!&quot;[22m&#xA;"><![CDATA[    at Proxy.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/node_modules/playwright/lib/matchers/expect.js:213:24)
-    at World.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/tests/features/src/steps/predefined_steps.js:257:9)
-    at runNextTicks (node:internal/process/task_queues:64:5)
-    at process.processImmediate (node:internal/timers:472:9)]]></failure>
+<testsuite name="Cucumber" time="30.579" tests="1" skipped="0" failures="1" errors="0" timestamp="2026-05-08T08:54:18.672Z">
+  <testcase classname="Register User" name="Register a new user successfully and delete the account" time="30.403">
+    <failure type="A" message="[2mexpect([22m[31mlocator[39m[2m).[22mtoHaveText[2m([22m[32mexpected[39m[2m)[22m failed&#xA;&#xA;Locator:  locator('h2[data-qa=\'account-created\'] b')&#xA;Expected: [32m&quot;A[7mCCOUNT CREATED[27m!&quot;[39m&#xA;Received: [31m&quot;A[7mccount Created[27m!&quot;[39m&#xA;Timeout:  5000ms&#xA;&#xA;Call log:&#xA;[2m  - Expect &quot;to.have.text&quot; with timeout 5000ms[22m&#xA;[2m  - waiting for locator('h2[data-qa=\'account-created\'] b')[22m&#xA;[2m    8 × locator resolved to &lt;b>Account Created!&lt;/b>[22m&#xA;[2m      - unexpected value &quot;Account Created!&quot;[22m&#xA;"><![CDATA[    at Proxy.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/node_modules/playwright/lib/matchers/expect.js:213:24)
+    at World.<anonymous> (/home/sonam/Personal/playwright-cucmber-javascript/tests/features/src/steps/predefined_steps.js:257:9)]]></failure>
     <system-out><![CDATA[Given user is on web app....................................................passed
 Given user navigates to "https://automationexercise.com"....................passed
 And Verify and element "automation exercise home logo" is present...........passed
 And user clicks on "signup login link"......................................passed
 And user verifies that the "new user signup title" should have text as "New User Signup!"..passed
 And user enters "Sonam User" into input "signup name input".................passed
-And user enters "$user_1.email" into input "signup email input".............passed
+And user enters "sonam@napses.com" into input "signup email input"..........passed
 And user clicks on "signup button"..........................................passed
 And user verifies that the "enter account information title" should have text as "Enter Account Information"..passed
 And user selects radio box option "title mr radio"..........................passed

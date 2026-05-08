@@ -1,49 +1,49 @@
 ┌────────────────────────────────────────────────────────────────────────────────────────────────────────────┬───────────┬────────────────────────────────────────────────────────────┐
 │ Pattern / Text                                                                                             │ Duration  │ Location                                                   │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user navigates to {string}                                                                                 │ 5669.34ms │ tests/features/src/steps/predefined_steps.js:76            │
-│   user navigates to "https://automationexercise.com"                                                       │ 5669.34ms │ tests/features/specs/register_user/resgiterUser.feature:8  │
+│ user navigates to {string}                                                                                 │ 6036.91ms │ tests/features/src/steps/predefined_steps.js:76            │
+│   user navigates to "https://automationexercise.com"                                                       │ 6036.91ms │ tests/features/specs/register_user/resgiterUser.feature:8  │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user clicks on {string}                                                                                    │ 1925.81ms │ tests/features/src/steps/predefined_steps.js:179           │
-│   user clicks on "create account button"                                                                   │ 4589.12ms │ tests/features/specs/register_user/resgiterUser.feature:34 │
-│   user clicks on "signup login link"                                                                       │ 606.07ms  │ tests/features/specs/register_user/resgiterUser.feature:10 │
-│   user clicks on "signup button"                                                                           │ 582.24ms  │ tests/features/specs/register_user/resgiterUser.feature:14 │
+│ user verifies that the {string} should have text as {string}                                               │ 1829.82ms │ tests/features/src/steps/predefined_steps.js:246           │
+│   user verifies that the "account created title" should have text as "ACCOUNT CREATED!"                    │ 5011.58ms │ tests/features/specs/register_user/resgiterUser.feature:35 │
+│   user verifies that the "enter account information title" should have text as "Enter Account Information" │ 311.05ms  │ tests/features/specs/register_user/resgiterUser.feature:15 │
+│   user verifies that the "new user signup title" should have text as "New User Signup!"                    │ 166.82ms  │ tests/features/specs/register_user/resgiterUser.feature:11 │
+│   user verifies that the "account deleted title" should have text as "ACCOUNT DELETED!"                    │ -         │ tests/features/specs/register_user/resgiterUser.feature:39 │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
+│ user is on web app                                                                                         │ 1235.40ms │ tests/features/src/steps/createDrivers.js:13               │
+│   user is on web app                                                                                       │ 1235.40ms │ tests/features/specs/register_user/resgiterUser.feature:7  │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
+│ user enters {string} into input {string}                                                                   │ 1063.26ms │ tests/features/src/steps/predefined_steps.js:122           │
+│   user enters "Sonam User" into input "account name input"                                                 │ 1226.42ms │ tests/features/specs/register_user/resgiterUser.feature:17 │
+│   user enters "Test@12345" into input "account password input"                                             │ 1211.37ms │ tests/features/specs/register_user/resgiterUser.feature:18 │
+│   user enters "sonam@napses.com" into input "signup email input"                                           │ 1062.51ms │ tests/features/specs/register_user/resgiterUser.feature:13 │
+│   user enters "Maharashtra" into input "state input"                                                       │ 1060.68ms │ tests/features/specs/register_user/resgiterUser.feature:30 │
+│   user enters "9999999999" into input "mobile number input"                                                │ 1035.42ms │ tests/features/specs/register_user/resgiterUser.feature:33 │
+│   8 more                                                                                                   │           │                                                            │
+├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
+│ user clicks on {string}                                                                                    │ 891.51ms  │ tests/features/src/steps/predefined_steps.js:179           │
+│   user clicks on "create account button"                                                                   │ 1524.20ms │ tests/features/specs/register_user/resgiterUser.feature:34 │
+│   user clicks on "signup button"                                                                           │ 575.85ms  │ tests/features/specs/register_user/resgiterUser.feature:14 │
+│   user clicks on "signup login link"                                                                       │ 574.49ms  │ tests/features/specs/register_user/resgiterUser.feature:10 │
 │   user clicks on "continue button"                                                                         │ -         │ tests/features/specs/register_user/resgiterUser.feature:36 │
 │   user clicks on "continue button"                                                                         │ -         │ tests/features/specs/register_user/resgiterUser.feature:40 │
 │   1 more                                                                                                   │           │                                                            │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user verifies that the {string} should have text as {string}                                               │ 1792.72ms │ tests/features/src/steps/predefined_steps.js:246           │
-│   user verifies that the "account created title" should have text as "ACCOUNT CREATED!"                    │ 5008.28ms │ tests/features/specs/register_user/resgiterUser.feature:35 │
-│   user verifies that the "new user signup title" should have text as "New User Signup!"                    │ 251.65ms  │ tests/features/specs/register_user/resgiterUser.feature:11 │
-│   user verifies that the "enter account information title" should have text as "Enter Account Information" │ 118.22ms  │ tests/features/specs/register_user/resgiterUser.feature:15 │
-│   user verifies that the "account deleted title" should have text as "ACCOUNT DELETED!"                    │ -         │ tests/features/specs/register_user/resgiterUser.feature:39 │
+│ user selects checkbox option {string}                                                                      │ 132.74ms  │ tests/features/src/steps/predefined_steps.js:197           │
+│   user selects checkbox option "newsletter checkbox"                                                       │ 135.00ms  │ tests/features/specs/register_user/resgiterUser.feature:22 │
+│   user selects checkbox option "offers checkbox"                                                           │ 130.49ms  │ tests/features/specs/register_user/resgiterUser.feature:23 │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user enters {string} into input {string}                                                                   │ 1038.12ms │ tests/features/src/steps/predefined_steps.js:122           │
-│   user enters "$user_1.email" into input "signup email input"                                              │ 1105.79ms │ tests/features/specs/register_user/resgiterUser.feature:13 │
-│   user enters "Sonam User" into input "account name input"                                                 │ 1073.28ms │ tests/features/specs/register_user/resgiterUser.feature:17 │
-│   user enters "Test@12345" into input "account password input"                                             │ 1064.30ms │ tests/features/specs/register_user/resgiterUser.feature:18 │
-│   user enters "Sonam User" into input "signup name input"                                                  │ 1059.03ms │ tests/features/specs/register_user/resgiterUser.feature:12 │
-│   user enters "9999999999" into input "mobile number input"                                                │ 1029.70ms │ tests/features/specs/register_user/resgiterUser.feature:33 │
-│   8 more                                                                                                   │           │                                                            │
+│ user selects option {string} from the dropdown {string}                                                    │ 116.96ms  │ tests/features/src/steps/predefined_steps.js:213           │
+│   user selects option "5" from the dropdown "birth month dropdown"                                         │ 179.72ms  │ tests/features/specs/register_user/resgiterUser.feature:20 │
+│   user selects option "10" from the dropdown "birth day dropdown"                                          │ 143.49ms  │ tests/features/specs/register_user/resgiterUser.feature:19 │
+│   user selects option "1995" from the dropdown "birth year dropdown"                                       │ 117.72ms  │ tests/features/specs/register_user/resgiterUser.feature:21 │
+│   user selects option "India" from the dropdown "country dropdown"                                         │ 26.92ms   │ tests/features/specs/register_user/resgiterUser.feature:29 │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user is on web app                                                                                         │ 737.67ms  │ tests/features/src/steps/createDrivers.js:13               │
-│   user is on web app                                                                                       │ 737.67ms  │ tests/features/specs/register_user/resgiterUser.feature:7  │
+│ user selects radio box option {string}                                                                     │ 98.15ms   │ tests/features/src/steps/predefined_steps.js:205           │
+│   user selects radio box option "title mr radio"                                                           │ 98.15ms   │ tests/features/specs/register_user/resgiterUser.feature:16 │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user selects radio box option {string}                                                                     │ 88.02ms   │ tests/features/src/steps/predefined_steps.js:205           │
-│   user selects radio box option "title mr radio"                                                           │ 88.02ms   │ tests/features/specs/register_user/resgiterUser.feature:16 │
-├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ Verify and element {string} is present                                                                     │ 78.38ms   │ tests/features/src/steps/predefined_steps.js:332           │
-│   Verify and element "automation exercise home logo" is present                                            │ 78.38ms   │ tests/features/specs/register_user/resgiterUser.feature:9  │
-├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user selects checkbox option {string}                                                                      │ 63.35ms   │ tests/features/src/steps/predefined_steps.js:197           │
-│   user selects checkbox option "newsletter checkbox"                                                       │ 66.78ms   │ tests/features/specs/register_user/resgiterUser.feature:22 │
-│   user selects checkbox option "offers checkbox"                                                           │ 59.92ms   │ tests/features/specs/register_user/resgiterUser.feature:23 │
-├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
-│ user selects option {string} from the dropdown {string}                                                    │ 33.50ms   │ tests/features/src/steps/predefined_steps.js:213           │
-│   user selects option "10" from the dropdown "birth day dropdown"                                          │ 46.02ms   │ tests/features/specs/register_user/resgiterUser.feature:19 │
-│   user selects option "5" from the dropdown "birth month dropdown"                                         │ 45.40ms   │ tests/features/specs/register_user/resgiterUser.feature:20 │
-│   user selects option "India" from the dropdown "country dropdown"                                         │ 24.38ms   │ tests/features/specs/register_user/resgiterUser.feature:29 │
-│   user selects option "1995" from the dropdown "birth year dropdown"                                       │ 18.22ms   │ tests/features/specs/register_user/resgiterUser.feature:21 │
+│ Verify and element {string} is present                                                                     │ 72.35ms   │ tests/features/src/steps/predefined_steps.js:332           │
+│   Verify and element "automation exercise home logo" is present                                            │ 72.35ms   │ tests/features/specs/register_user/resgiterUser.feature:9  │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
 │ user is on mobile app                                                                                      │ UNUSED    │ tests/features/src/steps/createDrivers.js:6                │
 ├────────────────────────────────────────────────────────────────────────────────────────────────────────────┼───────────┼────────────────────────────────────────────────────────────┤
