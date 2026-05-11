@@ -1,6 +1,23 @@
 <?xml version="1.0"?>
-<testsuite name="Cucumber" time="29.017" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-08T08:59:40.887Z">
-  <testcase classname="User sign in" name="Login with incorrect credentials shows error message" time="15.075">
+<testsuite name="Cucumber" time="36.388" tests="3" skipped="0" failures="0" errors="0" timestamp="2026-05-08T09:53:16.867Z">
+  <testcase classname="Contact us form" name="Submit contact us form successfully" time="16.097">
+    <system-out><![CDATA[Given user is on web app....................................................passed
+And user navigates to "http://automationexercise.com".......................passed
+And Verify and element "img[alt='Website for automation practice']" is present..passed
+And user clicks on "a[href='/contact_us']"..................................passed
+And user verifies that the "div.contact-form h2.title.text-center" should have text as "Get In Touch"..passed
+And user enters "Sonam User" into input "input[data-qa='name']".............passed
+And user enters "sonam@example.com" into input "input[data-qa='email']".....passed
+And user enters "Automation Contact Subject" into input "input[data-qa='subject']"..passed
+And user enters "This is a sample message for contact us form test." into input "textarea[data-qa='message']"..passed
+And user uploads file "/home/sonam/Personal/playwright-cucmber-javascript/tests/data/user-data/default.json" at "input[name='upload_file']"..passed
+And user accepts alert......................................................passed
+And user clicks on "input[data-qa='submit-button']".........................passed
+And user verifies that the "div.status.alert.alert-success" should have text as "Success! Your details have been submitted successfully."..passed
+And user clicks on "a.btn.btn-success"......................................passed
+And Verify and element "img[alt='Website for automation practice']" is present..passed]]></system-out>
+  </testcase>
+  <testcase classname="User sign in" name="Login with incorrect credentials shows error message" time="9.61">
     <system-out><![CDATA[Given user is on web app....................................................passed
 And user navigates to "http://automationexercise.com".......................passed
 And Verify and element "img[alt='Website for automation practice']" is present..passed
@@ -11,7 +28,7 @@ And user enters "Invalid@12345" into input "input[data-qa='login-password']"..pa
 And user clicks on "button[data-qa='login-button']".........................passed
 And user verifies that the ".login-form p" should have text as "Your email or password is incorrect!"..passed]]></system-out>
   </testcase>
-  <testcase classname="User sign in" name="Login with valid credentials and logout successfully" time="13.815">
+  <testcase classname="User sign in" name="Login with valid credentials and logout successfully" time="10.58">
     <system-out><![CDATA[Given user is on web app....................................................passed
 And user navigates to "http://automationexercise.com".......................passed
 And Verify and element "img[alt='Website for automation practice']" is present..passed
